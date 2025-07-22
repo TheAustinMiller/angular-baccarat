@@ -1,0 +1,43 @@
+.chipRow {
+  display: flex;
+  gap: 10px;
+}
+
+.chipRow img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin: 0;
+}
+
+.betting-area {
+  display: flex;
+  justify-content: center; /* or space-around / space-between */
+  gap: 40px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.bet-spot {
+  width: 350px;
+  height: 100px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  user-select: none;
+  background-color: #1a5032;
+}
+
+  .bet-spot.banker-spot {
+    border: 10px solid #ff0000;
+  }
+
+  .bet-spot.player-spot {
+    border: 10px solid #0a00ff;
+  }
+
+  .bet-spot.tie-spot {
+    border: 10px solid #808080;
+  }
+
